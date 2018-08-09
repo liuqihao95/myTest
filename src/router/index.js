@@ -17,6 +17,14 @@ export default new Router({
       component:()=>import("@/view/loading")
     },
     {
+      path:"/watch",
+      name:"watch",
+      component:()=>import("@/components/watch"),
+      meta:{
+        title:"我是一个watch监控的页面"
+      }
+    },
+    {
       path: "/vuex",
       name: "vuex",
       component: () => import("@/view/vuex-test"),
