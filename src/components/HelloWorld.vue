@@ -4,6 +4,7 @@
     <h2 ref="mybox">我是用来测试获取DOM元素的测试元素</h2>
     <input type="checkbox"  :value="false" checked="" ref="test">
     <router-link to="/test">去调用复选框</router-link>
+    <router-link to="/element">element</router-link>
     <router-link to="/loading">我测试无限加载</router-link><p>
     <router-link to="/watch">去测试watch</router-link><p>
     2222222222222

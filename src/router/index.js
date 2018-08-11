@@ -12,6 +12,11 @@ export default new Router({
       component: HelloWorld
     },
     {
+      path: '/element',
+      name: 'HelloWorld',
+      component:()=>import("@/view/liu")
+    },
+    {
       path: '/loading',
       name: 'loading',
       component:()=>import("@/view/loading")

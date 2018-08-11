@@ -9,6 +9,7 @@
 </template>
 
 <script>
+  import '../static/init.css'
   import {mapState} from 'vuex'
   import {mapGetters} from 'vuex'
   import {mapMutations} from 'vuex'
